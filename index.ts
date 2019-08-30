@@ -33,15 +33,12 @@ router.get('/', async ctx => {
 
 router.post('/addtask', async ctx => {
   let newTask: any[] = ctx.request.body.newtask
-  console.log(ctx.request.body)
   task.push(newTask)
   ctx.redirect('/')
-  console.log(task)
 })
 
 router.post('/complete', ctx => {
   let completeTask: any[] = ctx.request.body.check
-  console.log(ctx.request.body)
   //check for the "typeof" the different completed task, then add into the complete task
   if (typeof completeTask === 'string') {
     complete.push(completeTask)
