@@ -1,0 +1,33 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Membuat todolist menggunakan TypeScript dan KoaJS",
+  "main": "index.ts",
+  "author": "Erlan Saputra",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node index",
+    "test": "ts-node tes"
+  },
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "koa": "^2.8.1",
+    "koa-body": "^4.1.1",
+    "koa-body-parser": "^1.1.2",
+    "koa-ejs": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "koa-views-render": "^0.0.1",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/ejs": "^2.6.3",
+    "@types/koa": "^2.0.49",
+    "@types/koa-router": "^7.0.42",
+    "@types/koa-views": "^2.0.3",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
